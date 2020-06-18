@@ -158,5 +158,4 @@ function confirm($where,$data){
  $this->db->where($where);
  $this->db->update('reservation',$data);
 }
-} 
-?>
+}
